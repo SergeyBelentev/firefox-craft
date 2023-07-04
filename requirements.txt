@@ -1,0 +1,4 @@
+pyinstaller
+websocket-server
+websocket-client==0.48.0
+psutil

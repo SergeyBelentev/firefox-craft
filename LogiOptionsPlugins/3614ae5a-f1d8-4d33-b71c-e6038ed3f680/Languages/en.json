@@ -1,0 +1,24 @@
+{
+    "LocalizedStrings": [
+        {
+            "ID": "changetab",
+            "value": "Change tab"
+        },
+		{
+            "ID": "changechapter",
+            "value": "Rewind"
+        },
+		{
+            "ID": "ychangetab",
+            "value": "Change tab"
+        },
+		{
+            "ID": "changespeed",
+            "value": "Change Speed"
+        },
+		{
+            "ID": "timeline",
+            "value": "Timeline"
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "LocalizedStrings": [
+        {
+            "ID": "changetab",
+            "value": "Перключение вкладок"
+        },
+		{
+            "ID": "changechapter",
+            "value": "Главы"
+        },
+		{
+            "ID": "ychangetab",
+            "value": "Перключение вкладок"
+        },
+		{
+            "ID": "changespeed",
+            "value": "Скорость"
+        },
+		{
+            "ID": "timeline",
+            "value": "Таймлайн"
+        }
+    ]
+}

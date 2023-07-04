@@ -1,0 +1,94 @@
+{
+    "GUID": "3614ae5a-f1d8-4d33-b71c-e6038ed3f680",
+    "tools": [     
+		{
+            "name": "Youtube",
+            "enabled": true,
+            "tool_options": [
+                {
+                    "index": 0,
+                    "name": "ychangetab",
+                    "image_file_path": "tabs.png",
+                    "enabled": true,
+                    "ratchet_enabled": true
+                },
+				{
+                    "index": 1,
+                    "name": "timeline",
+                    "image_file_path": "rewind.png",
+                    "enabled": true,
+                    "ratchet_enabled": false
+                },
+				{
+                    "index": 2,
+                    "name": "changechapter",
+                    "image_file_path": "rewind.png",
+                    "enabled": true,
+                    "ratchet_enabled": true
+                },
+				{
+                    "index": 3,
+                    "name": "changespeed",
+                    "image_file_path": "rewind.png",
+                    "enabled": true,
+                    "ratchet_enabled": true
+                }
+            ]
+        },
+		{
+            "name": "Alltabs",
+            "enabled": true,
+            "tool_options": [
+                {
+                    "index": 0,
+                    "name": "changetab",
+                    "image_file_path": "tabs.png",
+                    "enabled": true,
+                    "ratchet_enabled": true
+                }
+            ]
+        }
+    ],
+    "tasks": [
+        {
+            "name": "changetoolvalue",
+            "win_id": "0x10064",
+            "mac_id": 615
+        },
+        {
+            "name": "zoom",
+            "image_file_path": "zoom.png",
+            "tool_options": [],
+            "mac_id": 309,
+            "win_id": "0x10057"
+        },
+        {
+            "name": "textsize",
+            "image_file_path": "textsize.png",
+            "tool_options": [],
+            "mac_id": 310,
+            "win_id": "0x10058"
+        },
+        {
+            "name": "undoredo",
+            "image_file_path": "undoredo.png",
+            "rotate_left_text": "undo",
+            "rotate_left_image_file_path": "undo.png",
+            "rotate_right_text": "redo",
+            "rotate_right_image_file_path": "redo.png",
+            "tool_options": []
+        },
+        {
+            "name": "keystrokeassignment",
+            "image_file_path": "",
+            "mac_id": 73,
+            "win_id": "0x10000"
+        },
+		{
+            "name": "playpause",
+            "image_file_path": "",
+            "mac_id": 4,
+            "win_id": "0x0004"
+        }
+    ]
+}

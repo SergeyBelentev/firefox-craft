@@ -1,0 +1,41 @@
+{
+    "GUID": "3614ae5a-f1d8-4d33-b71c-e6038ed3f680",
+    "info": {
+        "name": "Firefox Craft",
+        "publisher": "Sergey Belentev",
+        "version": "0.1",
+        "win_name": "firefox.exe",
+        "win_minimum_supported_version": "0.0.0",
+        "win_maximum_supported_version": "2017.0.1",
+        "mac_bundle": "craft.app",
+        "mac_path": "<-- full path of the folder that contains the craft.app bundle here -->",
+        "mac_paths": [
+            {
+                "path": "<-- full path of craft.app bundle here -->",
+                "mac_minimum_supported_version": "0.0.0",
+                "mac_maximum_supported_version": "10.0.0",
+                "name_suffix": ""
+            }
+        ]
+    },
+    "crown": {
+        "rotate": {
+            "default_task": "changetoolvalue",
+            "tasks": [
+                "changetoolvalue"
+            ],
+            "short_list": [
+                "changetoolvalue"
+            ]
+        },
+        "press": {
+            "default_task": "playpause",
+            "tasks": [
+                "playpause"
+            ],
+            "short_list": [
+                "playpause"
+            ]
+        }
+    }
+}
