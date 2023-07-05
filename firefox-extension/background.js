@@ -1,22 +1,4 @@
-  browser.runtime.getPlatformInfo().then((info) => {
-    if (info.os === "win") {
-      // On Windows, you can use the nativeMessaging API to retrieve the PID
-      // Note: The extension needs permission for nativeMessaging in the manifest.json file
-      browser.runtime.sendNativeMessage('com.example.extension', { command: 'getpid' }).then((response) => {
-        if (response && response.pid) {
-          console.log("Firefox PID:", response.pid);
-        } else {
-          console.error("Failed to get Firefox PID.");
-        }
-      }).catch((error) => {
-        console.error("Error occurred while retrieving Firefox PID:", error);
-      });
-    } else {
-      console.error("Getting the PID is not supported on this platform.");
-    }
-  }).catch((error) => {
-    console.error("Error occurred while retrieving platform info:", error);
-  });
+
 
 function connect() {
   let logiCraftSocket = new WebSocket('ws://127.0.0.1:9001')

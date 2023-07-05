@@ -66,11 +66,9 @@ Click `ENABLE` button from the **Developer Mode** section.
 
 ## 8. Install `Firefox Craft` Firefox extension
 Open Firefox.
-Go to `about:addons`.
-Click on `setting` button.
-![image](https://i.imgur.com/iZqIkB8.png)
-Choice `install from file`.
-Select `firefox-extension.zip` (from this repository)
+Go to [Firefox craft Addon page.](https://addons.mozilla.org/ru/firefox/addon/lg-craft-for-firefox/)
+And Install Extension
+![image](https://i.imgur.com/hRiWEjm.png)
 
 ## 9. Done. Try to use Crown in any Youtube video.
 
